@@ -1,0 +1,50 @@
+# ⚽ Aplicație Web – Turneu de Fotbal
+
+## 📌 Descriere
+
+Această aplicație reprezintă un sistem simplu pentru gestionarea unui **turneu de fotbal**.
+
+Utilizatorii se pot înregistra, autentifica și pot gestiona:
+- echipe participante la turneu
+- task-uri necesare organizării (planificare meciuri, organizare teren etc.)
+
+Proiectul a fost realizat în cadrul laboratorului de **Programare Web** și îmbină mai multe tehnologii moderne.
+
+---
+
+## 🚀 Funcționalități
+
+✔ Înregistrare și autentificare utilizator  
+✔ Sesiuni (utilizatorul rămâne logat)  
+✔ Adăugare și vizualizare echipe  
+✔ Salvare datelor în MongoDB  
+✔ Afisare task-uri  
+✔ Filtrare task-uri după status (pending / ongoing / completed) folosind AJAX  
+✔ API REST pentru task-uri  
+
+---
+
+## 👤 Date de test (login)
+
+Poți folosi contul creat automat:
+
+- **Email:** `test@test.com`
+- **Parolă:** `123456`
+
+Sau îți poți crea cont nou din pagina Register.
+
+---
+
+## ⚙️ Cum pornești aplicația
+
+### ✅ 1. Instalezi dependențele
+
+În terminal:
+
+```bash
+npm install
+
+Daca totul functioneaza bine atunci rulam:
+npm start
+
+Pe urma accesam link-ul: http://localhost:3000
