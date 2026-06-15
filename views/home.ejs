@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Turneu Fotbal</title>
+</head>
+<body>
+
+<h1>Turneu Fotbal</h1>
+
+<% if (user) { %>
+    <a href="/teams">Teams</a><br>
+    <a href="/tasks">Tasks</a><br>
+    <a href="/logout">Logout</a>
+<% } else { %>
+    <a href="/login">Login</a><br>
+    <a href="/register">Register</a>
+<% } %>
+
+</body>
+</html>

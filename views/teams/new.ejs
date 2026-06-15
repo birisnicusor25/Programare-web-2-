@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adauga echipa</title>
+</head>
+<body>
+
+<h2>Adauga echipa</h2>
+
+<form method="POST" action="/teams/new">
+
+    Nume echipa:<br>
+    <input type="text" name="name" required><br><br>
+
+    Numar jucatori:<br>
+    <input type="number" name="players" required><br><br>
+
+    Categorie:<br>
+    <select name="category">
+        <option value="Juniori">Juniori</option>
+        <option value="Seniori">Seniori</option>
+        <option value="Amatori">Amatori</option>
+    </select><br><br>
+
+    <button type="submit">Adauga echipa</button>
+
+</form>
+
+<br>
+
+/teamsInapoi</a>
+
+</body>
+</html>

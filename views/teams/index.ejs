@@ -1,0 +1,20 @@
+<h2>Echipe</h2>
+
+newAdauga echipa</a>
+
+<ul>
+<% teams.forEach(t=>{ %>
+  <h2>Echipe</h2>
+
+<a href="/teams/new">Adauga echipa</a>
+
+<ul>
+<% teams.forEach(t => { %>
+  <li>
+    <%= t.name %> - by <%= t.createdBy.username %>
+    <a href="/teams/<%= t._id %>">Detalii</a>
+  </li>
+<% }) %>
+</ul>
+<% }) %>
+</ul>
